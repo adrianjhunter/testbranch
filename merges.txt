@@ -1,0 +1,10 @@
+git checkout main
+git fetch -p origin
+git merge origin/main
+
+git checkout develop
+git merge main
+
+** resolve conflicts by editing files and recommiting them.. use git commit to complete merge **
+
+git push origin develop
